@@ -6,6 +6,9 @@ zuul:
     order:
       url: http://localhost:8082/orders
       path: /orders/**
+    tw-mall-app:
+      url: http://10.206.20.81:3000
+      path: /**
 management:
   endpoints:
     web:
